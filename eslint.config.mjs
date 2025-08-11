@@ -17,6 +17,7 @@ const eslintConfig = [
       "@typescript-eslint/no-empty-object-type": "off",
       "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
       "@typescript-eslint/no-this-alias": "off",
+      "@typescript-eslint/no-require-imports": "off", // отключаем правило для require()
     },
   },
 ];
