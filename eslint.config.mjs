@@ -18,13 +18,9 @@ const eslintConfig = [
       "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
       "@typescript-eslint/no-this-alias": "off",
       "@typescript-eslint/no-require-imports": "off",
-      
-      // Добавляем смягчение по новым ошибкам
       "@typescript-eslint/no-unnecessary-type-constraint": "off",
       "@typescript-eslint/no-unsafe-function-type": "off",
       "@typescript-eslint/no-wrapper-object-types": "off",
-      // Можно сделать warning, если не хочется полностью отключать
-      // "@typescript-eslint/no-unused-vars": "warn",
     },
   },
 ];
