@@ -14,13 +14,7 @@ const eslintConfig = [
   {
     ignores: ["node_modules/", ".next/"],
     rules: {
-      "@typescript-eslint/no-empty-object-type": "off",
-      "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
-      "@typescript-eslint/no-this-alias": "off",
-      "@typescript-eslint/no-require-imports": "off",
-      "@typescript-eslint/no-unnecessary-type-constraint": "off",
-      "@typescript-eslint/no-unsafe-function-type": "off",
-      "@typescript-eslint/no-wrapper-object-types": "off",
+      
     },
   },
 ];
