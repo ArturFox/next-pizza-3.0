@@ -1,5 +1,5 @@
 
-import { Geist, Geist_Mono, Nunito } from "next/font/google";
+import { Nunito } from "next/font/google";
 import "./globals.css";
 
 const getNunito = Nunito({
